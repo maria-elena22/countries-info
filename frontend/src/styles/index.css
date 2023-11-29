@@ -1,0 +1,221 @@
+html,body {
+  background: linear-gradient(to bottom, white, #dcdcfc);
+  height: 100%;
+}
+
+i {
+  padding: 1%;
+}
+
+/*======================== Country Info Component ========================*/
+
+.top-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondName {
+  font-size: small;
+  font-weight: normal;
+}
+
+/*======================== Right Column Component ========================*/
+
+.rightColumn {
+  flex: 0.7;
+  border-left: rgb(232, 232, 232) solid;
+  padding: 2%;
+}
+
+#flag {
+  width: auto;
+  max-height: 12vh;
+  padding: 1%;
+  border: solid #dee0e3;
+}
+
+#coatOfArms {
+  width: auto;
+  max-height: 12vh;
+  padding: 1% 4%;
+
+}
+
+.symbols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.figure-caption {
+  margin-top: 2px;
+}
+
+.map {
+  padding: 1%;
+}
+
+.infoTable th,
+.infoTable td {
+  padding: 3%;
+}
+
+.infoTable th {
+  width: 30%;
+}
+
+.infoTable .card-info {
+  padding-left: 0;
+}
+
+/*======================== Left Column Component ========================*/
+
+.leftColumn {
+  flex: 1;
+  margin-right: 2%;
+}
+
+.namesTable {
+  margin: 2% 0 2% 0;
+}
+
+.namesTable td {
+  background: none !important;
+}
+.namesTable th {
+  background: #cfe3ff !important;
+}
+
+.components {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*======================== Card Component ========================*/
+
+.card {
+  width: 18rem;
+  background: none !important;
+}
+
+.card-header {
+  background: #cfe3ff !important;
+}
+
+.card-header h6 {
+  font-weight: bold;
+}
+
+.card-c {
+  padding: 2%;
+  text-align: center;
+  max-height: 30% !important;
+  margin: 2%;
+  width: fit-content;
+}
+
+/*======================== Info Cards Component ========================*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 !important;
+}
+
+/*======================== Info Component ========================*/
+
+.card-info {
+  max-height: 30% !important;
+  width: fit-content;
+  padding: 2%;
+}
+
+/*======================== Result Component ========================*/
+
+.scroll {
+  padding-bottom: 0.5%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.newSearch {
+  width: 15%;
+}
+
+.newSearchList {
+  width: 70%;
+}
+.newSearchList i {
+  padding-left: 8%;
+}
+
+.header {
+  background-color: white;
+  padding: 1%;
+  text-align: center;
+  position: relative;
+  top: 0;
+  width: 20%;
+  height: min-content;
+  z-index: 1000;
+}
+
+/*======================== Search Component ========================*/
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+
+.title {
+  text-align: center;
+  padding: 20% 0 20% 0;
+  font-size: 4em;
+}
+
+.input-group {
+  width: 55vw !important;
+}
+
+form {
+  padding: 4%;
+}
+
+/*======================== Loading Component ========================*/
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.middle-text {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.loading-spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
